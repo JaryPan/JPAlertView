@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2A0645A1D4735530019BD51 /* JPAlertViewOptionalItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A064591D4735530019BD51 /* JPAlertViewOptionalItemView.m */; };
+		F2A0645C1D4773FE0019BD51 /* zhegutian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2A0645B1D4773FE0019BD51 /* zhegutian.jpg */; };
+		F2E380A21D177CB60084214C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E380A11D177CB60084214C /* main.m */; };
+		F2E380A51D177CB60084214C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E380A41D177CB60084214C /* AppDelegate.m */; };
+		F2E380A81D177CB60084214C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E380A71D177CB60084214C /* ViewController.m */; };
+		F2E380AB1D177CB60084214C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E380A91D177CB60084214C /* Main.storyboard */; };
+		F2E380AD1D177CB60084214C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E380AC1D177CB60084214C /* Assets.xcassets */; };
+		F2E380B01D177CB60084214C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E380AE1D177CB60084214C /* LaunchScreen.storyboard */; };
+		F2E380BB1D177CB60084214C /* JPAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E380BA1D177CB60084214C /* JPAlertViewTests.m */; };
+		F2E380C61D177CB60084214C /* JPAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E380C51D177CB60084214C /* JPAlertViewUITests.m */; };
+		F2E380D51D1781400084214C /* JPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E380D41D1781400084214C /* JPAlertView.m */; };
+		F2E380D81D17B4500084214C /* JPAlertViewOptionalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E380D71D17B4500084214C /* JPAlertViewOptionalItem.m */; };
+		F2E381261D1902220084214C /* JPAlertViewButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E381251D1902220084214C /* JPAlertViewButtonView.m */; };
+		F2E381291D1903EB0084214C /* JPAlertViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E381281D1903EB0084214C /* JPAlertViewButton.m */; };
+		F2E3812E1D19186B0084214C /* JPAlertViewTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E3812D1D19186B0084214C /* JPAlertViewTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E380B71D177CB60084214C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E380951D177CB50084214C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E3809C1D177CB50084214C;
+			remoteInfo = JPAlertView;
+		};
+		F2E380C21D177CB60084214C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E380951D177CB50084214C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E3809C1D177CB50084214C;
+			remoteInfo = JPAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2A064581D4735530019BD51 /* JPAlertViewOptionalItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAlertViewOptionalItemView.h; sourceTree = "<group>"; };
+		F2A064591D4735530019BD51 /* JPAlertViewOptionalItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAlertViewOptionalItemView.m; sourceTree = "<group>"; };
+		F2A0645B1D4773FE0019BD51 /* zhegutian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhegutian.jpg; sourceTree = "<group>"; };
+		F2E3809D1D177CB50084214C /* JPAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E380A11D177CB60084214C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2E380A31D177CB60084214C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2E380A41D177CB60084214C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2E380A61D177CB60084214C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2E380A71D177CB60084214C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2E380AA1D177CB60084214C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2E380AC1D177CB60084214C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2E380AF1D177CB60084214C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2E380B11D177CB60084214C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E380B61D177CB60084214C /* JPAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E380BA1D177CB60084214C /* JPAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAlertViewTests.m; sourceTree = "<group>"; };
+		F2E380BC1D177CB60084214C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E380C11D177CB60084214C /* JPAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E380C51D177CB60084214C /* JPAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAlertViewUITests.m; sourceTree = "<group>"; };
+		F2E380C71D177CB60084214C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E380D31D1781400084214C /* JPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAlertView.h; sourceTree = "<group>"; };
+		F2E380D41D1781400084214C /* JPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAlertView.m; sourceTree = "<group>"; };
+		F2E380D61D17B4500084214C /* JPAlertViewOptionalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAlertViewOptionalItem.h; sourceTree = "<group>"; };
+		F2E380D71D17B4500084214C /* JPAlertViewOptionalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAlertViewOptionalItem.m; sourceTree = "<group>"; };
+		F2E381241D1902220084214C /* JPAlertViewButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAlertViewButtonView.h; sourceTree = "<group>"; };
+		F2E381251D1902220084214C /* JPAlertViewButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAlertViewButtonView.m; sourceTree = "<group>"; };
+		F2E381271D1903EB0084214C /* JPAlertViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAlertViewButton.h; sourceTree = "<group>"; };
+		F2E381281D1903EB0084214C /* JPAlertViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAlertViewButton.m; sourceTree = "<group>"; };
+		F2E3812C1D19186B0084214C /* JPAlertViewTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAlertViewTextView.h; sourceTree = "<group>"; };
+		F2E3812D1D19186B0084214C /* JPAlertViewTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAlertViewTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E3809A1D177CB50084214C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E380B31D177CB60084214C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E380BE1D177CB60084214C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2A064571D4734F60019BD51 /* JPAlertViewOptionalItemView */ = {
+			isa = PBXGroup;
+			children = (
+				F2A064581D4735530019BD51 /* JPAlertViewOptionalItemView.h */,
+				F2A064591D4735530019BD51 /* JPAlertViewOptionalItemView.m */,
+				F2E380D61D17B4500084214C /* JPAlertViewOptionalItem.h */,
+				F2E380D71D17B4500084214C /* JPAlertViewOptionalItem.m */,
+			);
+			name = JPAlertViewOptionalItemView;
+			sourceTree = "<group>";
+		};
+		F2E380941D177CB50084214C = {
+			isa = PBXGroup;
+			children = (
+				F2E3809F1D177CB50084214C /* JPAlertView */,
+				F2E380B91D177CB60084214C /* JPAlertViewTests */,
+				F2E380C41D177CB60084214C /* JPAlertViewUITests */,
+				F2E3809E1D177CB50084214C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E3809E1D177CB50084214C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3809D1D177CB50084214C /* JPAlertView.app */,
+				F2E380B61D177CB60084214C /* JPAlertViewTests.xctest */,
+				F2E380C11D177CB60084214C /* JPAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E3809F1D177CB50084214C /* JPAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F2E381301D1A36090084214C /* JPAlertView */,
+				F2E380A31D177CB60084214C /* AppDelegate.h */,
+				F2E380A41D177CB60084214C /* AppDelegate.m */,
+				F2E380A61D177CB60084214C /* ViewController.h */,
+				F2E380A71D177CB60084214C /* ViewController.m */,
+				F2A0645B1D4773FE0019BD51 /* zhegutian.jpg */,
+				F2E380A91D177CB60084214C /* Main.storyboard */,
+				F2E380AC1D177CB60084214C /* Assets.xcassets */,
+				F2E380AE1D177CB60084214C /* LaunchScreen.storyboard */,
+				F2E380B11D177CB60084214C /* Info.plist */,
+				F2E380A01D177CB50084214C /* Supporting Files */,
+			);
+			path = JPAlertView;
+			sourceTree = "<group>";
+		};
+		F2E380A01D177CB50084214C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E380A11D177CB60084214C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E380B91D177CB60084214C /* JPAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E380BA1D177CB60084214C /* JPAlertViewTests.m */,
+				F2E380BC1D177CB60084214C /* Info.plist */,
+			);
+			path = JPAlertViewTests;
+			sourceTree = "<group>";
+		};
+		F2E380C41D177CB60084214C /* JPAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E380C51D177CB60084214C /* JPAlertViewUITests.m */,
+				F2E380C71D177CB60084214C /* Info.plist */,
+			);
+			path = JPAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		F2E3812A1D1915520084214C /* JPAlertViewButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				F2E381241D1902220084214C /* JPAlertViewButtonView.h */,
+				F2E381251D1902220084214C /* JPAlertViewButtonView.m */,
+				F2E381271D1903EB0084214C /* JPAlertViewButton.h */,
+				F2E381281D1903EB0084214C /* JPAlertViewButton.m */,
+			);
+			name = JPAlertViewButtonView;
+			sourceTree = "<group>";
+		};
+		F2E3812F1D1918740084214C /* JPAlertViewTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3812C1D19186B0084214C /* JPAlertViewTextView.h */,
+				F2E3812D1D19186B0084214C /* JPAlertViewTextView.m */,
+			);
+			name = JPAlertViewTextView;
+			sourceTree = "<group>";
+		};
+		F2E381301D1A36090084214C /* JPAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F2E380D31D1781400084214C /* JPAlertView.h */,
+				F2E380D41D1781400084214C /* JPAlertView.m */,
+				F2E3812F1D1918740084214C /* JPAlertViewTextView */,
+				F2A064571D4734F60019BD51 /* JPAlertViewOptionalItemView */,
+				F2E3812A1D1915520084214C /* JPAlertViewButtonView */,
+			);
+			name = JPAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E3809C1D177CB50084214C /* JPAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E380CA1D177CB60084214C /* Build configuration list for PBXNativeTarget "JPAlertView" */;
+			buildPhases = (
+				F2E380991D177CB50084214C /* Sources */,
+				F2E3809A1D177CB50084214C /* Frameworks */,
+				F2E3809B1D177CB50084214C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPAlertView;
+			productName = JPAlertView;
+			productReference = F2E3809D1D177CB50084214C /* JPAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E380B51D177CB60084214C /* JPAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E380CD1D177CB60084214C /* Build configuration list for PBXNativeTarget "JPAlertViewTests" */;
+			buildPhases = (
+				F2E380B21D177CB60084214C /* Sources */,
+				F2E380B31D177CB60084214C /* Frameworks */,
+				F2E380B41D177CB60084214C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E380B81D177CB60084214C /* PBXTargetDependency */,
+			);
+			name = JPAlertViewTests;
+			productName = JPAlertViewTests;
+			productReference = F2E380B61D177CB60084214C /* JPAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2E380C01D177CB60084214C /* JPAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E380D01D177CB60084214C /* Build configuration list for PBXNativeTarget "JPAlertViewUITests" */;
+			buildPhases = (
+				F2E380BD1D177CB60084214C /* Sources */,
+				F2E380BE1D177CB60084214C /* Frameworks */,
+				F2E380BF1D177CB60084214C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E380C31D177CB60084214C /* PBXTargetDependency */,
+			);
+			name = JPAlertViewUITests;
+			productName = JPAlertViewUITests;
+			productReference = F2E380C11D177CB60084214C /* JPAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E380951D177CB50084214C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JaryPan;
+				TargetAttributes = {
+					F2E3809C1D177CB50084214C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F2E380B51D177CB60084214C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F2E3809C1D177CB50084214C;
+					};
+					F2E380C01D177CB60084214C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F2E3809C1D177CB50084214C;
+					};
+				};
+			};
+			buildConfigurationList = F2E380981D177CB50084214C /* Build configuration list for PBXProject "JPAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E380941D177CB50084214C;
+			productRefGroup = F2E3809E1D177CB50084214C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E3809C1D177CB50084214C /* JPAlertView */,
+				F2E380B51D177CB60084214C /* JPAlertViewTests */,
+				F2E380C01D177CB60084214C /* JPAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E3809B1D177CB50084214C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E380B01D177CB60084214C /* LaunchScreen.storyboard in Resources */,
+				F2E380AD1D177CB60084214C /* Assets.xcassets in Resources */,
+				F2E380AB1D177CB60084214C /* Main.storyboard in Resources */,
+				F2A0645C1D4773FE0019BD51 /* zhegutian.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E380B41D177CB60084214C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E380BF1D177CB60084214C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E380991D177CB50084214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E380A81D177CB60084214C /* ViewController.m in Sources */,
+				F2E380D51D1781400084214C /* JPAlertView.m in Sources */,
+				F2E381261D1902220084214C /* JPAlertViewButtonView.m in Sources */,
+				F2A0645A1D4735530019BD51 /* JPAlertViewOptionalItemView.m in Sources */,
+				F2E380A51D177CB60084214C /* AppDelegate.m in Sources */,
+				F2E381291D1903EB0084214C /* JPAlertViewButton.m in Sources */,
+				F2E3812E1D19186B0084214C /* JPAlertViewTextView.m in Sources */,
+				F2E380A21D177CB60084214C /* main.m in Sources */,
+				F2E380D81D17B4500084214C /* JPAlertViewOptionalItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E380B21D177CB60084214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E380BB1D177CB60084214C /* JPAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E380BD1D177CB60084214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E380C61D177CB60084214C /* JPAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E380B81D177CB60084214C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E3809C1D177CB50084214C /* JPAlertView */;
+			targetProxy = F2E380B71D177CB60084214C /* PBXContainerItemProxy */;
+		};
+		F2E380C31D177CB60084214C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E3809C1D177CB50084214C /* JPAlertView */;
+			targetProxy = F2E380C21D177CB60084214C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2E380A91D177CB60084214C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E380AA1D177CB60084214C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2E380AE1D177CB60084214C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E380AF1D177CB60084214C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E380C81D177CB60084214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2E380C91D177CB60084214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E380CB1D177CB60084214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2E380CC1D177CB60084214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2E380CE1D177CB60084214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JPAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPAlertView.app/JPAlertView";
+			};
+			name = Debug;
+		};
+		F2E380CF1D177CB60084214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JPAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPAlertView.app/JPAlertView";
+			};
+			name = Release;
+		};
+		F2E380D11D177CB60084214C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JPAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPAlertView;
+			};
+			name = Debug;
+		};
+		F2E380D21D177CB60084214C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JPAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E380981D177CB50084214C /* Build configuration list for PBXProject "JPAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E380C81D177CB60084214C /* Debug */,
+				F2E380C91D177CB60084214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E380CA1D177CB60084214C /* Build configuration list for PBXNativeTarget "JPAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E380CB1D177CB60084214C /* Debug */,
+				F2E380CC1D177CB60084214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E380CD1D177CB60084214C /* Build configuration list for PBXNativeTarget "JPAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E380CE1D177CB60084214C /* Debug */,
+				F2E380CF1D177CB60084214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E380D01D177CB60084214C /* Build configuration list for PBXNativeTarget "JPAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E380D11D177CB60084214C /* Debug */,
+				F2E380D21D177CB60084214C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E380951D177CB50084214C /* Project object */;
+}

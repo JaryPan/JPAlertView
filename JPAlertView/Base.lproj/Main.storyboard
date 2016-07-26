@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhegutian.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="l6N-pf-3hf">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="GZJ-VY-osB" appends="YES" id="EE7-hZ-xt3"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="l6N-pf-3hf" secondAttribute="bottom" id="4CE-QC-UBu"/>
+                            <constraint firstItem="l6N-pf-3hf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="EiI-lj-SnH"/>
+                            <constraint firstItem="l6N-pf-3hf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pQV-56-OFJ"/>
+                            <constraint firstAttribute="trailing" secondItem="l6N-pf-3hf" secondAttribute="trailing" id="tma-Hn-wyl"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="GZJ-VY-osB" appends="YES" id="Li5-dU-nAG"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="GZJ-VY-osB">
+                    <connections>
+                        <action selector="showAlertView:" destination="BYZ-38-t0r" id="JYi-sc-VTc"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="148" y="229"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="zhegutian.jpg" width="851" height="1513"/>
+    </resources>
+</document>
