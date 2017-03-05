@@ -9,9 +9,8 @@
 #define kContentWidth 270
 
 #import "JPAlertView.h"
-#import "AppDelegate.h"
 
-@interface JPAlertView ()
+@interface JPAlertView () <JPAlertViewOptionalItemViewDelegate, JPAlertViewButtonViewDelegate>
 {
     CGFloat contentHeight;
 }
@@ -228,7 +227,7 @@
 - (void)show:(void (^)())completedHandler
 {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        UIWindow *window = ((AppDelegate *)[UIApplication sharedApplication].delegate).window;
+        UIWindow *window = [UIApplication sharedApplication].keyWindow;
         
         if (![[window subviews] containsObject:self]) {
             BOOL canPresent = YES;
@@ -259,7 +258,7 @@
 #pragma mark - hide
 - (void)hide:(void (^)())completedHandler
 {
-    UIWindow *window = ((AppDelegate *)[UIApplication sharedApplication].delegate).window;
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
     
     if ([[window subviews] containsObject:self]) {
         [UIView animateWithDuration:0.26 animations:^{

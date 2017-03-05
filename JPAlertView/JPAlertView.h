@@ -13,7 +13,7 @@
 
 @protocol JPAlertViewDelegate;
 
-@interface JPAlertView : UIView <JPAlertViewOptionalItemViewDelegate, JPAlertViewButtonViewDelegate>
+@interface JPAlertView : UIView
 
 // 唯一的初始化方法
 - (instancetype)initWithTitle:(NSString *)title message:(NSString *)message delegate:(id /*<JPAlertViewDelegate>*/)delegate optionalItems:(NSArray<NSString *> *)optionalItems cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
